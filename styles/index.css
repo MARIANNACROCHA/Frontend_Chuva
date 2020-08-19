@@ -358,7 +358,7 @@ a {
   overflow: auto;
   border-radius: 3px;
   overflow: hidden;
-}
+ }
 
 #summary-title {
     font-family: Roboto;
@@ -529,7 +529,7 @@ hr {
   line-height: 17px;  
   color: #4D4D4D;
   padding-left: 15px;
-  margin-bottom: 45px;
+  margin-bottom: 12px;
 }
 
 footer {
@@ -566,7 +566,7 @@ footer {
   width: 1025px;
   height: 25px;
   background: #FFFFFF;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #EAF1F2;
   box-sizing: border-box;
   border-radius: 3px;
   margin-left: 15px;
@@ -578,7 +578,7 @@ footer {
   width: 1025px;
   height: 113px;
   background: #FFFFFF;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #EAF1F2;
   box-sizing: border-box;
   border-radius: 3px;
   margin-left: 15px;
@@ -586,20 +586,34 @@ footer {
   margin-bottom: 7px ;
 }
 
+textarea {
+  width: 1025px;
+  height: 120px;
+  padding: 12px 20px;
+  background: #FFFFFF;
+  border: 1px solid #EAF1F2;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 16px;
+  resize: none;
+  margin-left: 15px;
+  margin-top:5px;
+  border-width: 1px 1px 25px 1px;
+  border-style: solid;
+}
+
 #btnEnviarForm {
   background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
   border: #E7E7E7;
-  position: absolute;
   width: 133px;
-  height: 32px;
-  left: 907px;
-  top: 250px;
+  height: 22px;
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
   line-height: 16px;
   color: #FFFFFF;
+ 
 }
 
 #divFim h2 {
@@ -696,4 +710,32 @@ text-align: center;
   color: #ED7839;
   text-align: center;
 }
+
+#summarytest {
+  width: 1025px;
+  height: 120px;
+  padding: 12px 20px;
+  background: #FFFFFF;
+  border: 1px solid #EAF1F2;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 16px;
+  resize: none;
+  margin-left: 15px;
+  margin-top:5px;
+  overflow: hidden;
+  resize: vertical;
+}
+
+#icon4,#icon5,#icon7 {
+  padding-left: 15px;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+#icon6 {
+  padding-left: 15px;
+  display: inline-block;
+}
+
 
