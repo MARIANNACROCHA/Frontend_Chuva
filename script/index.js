@@ -8,8 +8,7 @@ $( document ).ready(function() {
     $("#topic5").hide();
     $("#topic6").hide();
     $("#topic7").hide();
-   
- 
+  
 
     $("#new-topic").click(function(){
         $("#divTopo").hide();
@@ -35,11 +34,32 @@ $( document ).ready(function() {
         $("#topic5").show();
         $("#topic6").show();
         $("#topic7").show();
-    })
-
-});
-
+    });
+})
 
 
+function myFunction()   {
+   
+     var dots = document.getElementById("dots");
+     var moreText = document.getElementById("more");
+     var sum = document.getElementById("summary");
+     var diss = document.getElementById("discussion");
+   
+     if (dots.style.display === "none") {
+       dots.style.display = "inline";
+       moreText.style.display = "none";
+       sum.style.height = "200px";
+       diss.style.top = "750px";
+     } else {
+       dots.style.display = "none";
+       moreText.style.display = "inline";
+       sum.style.height = "300px";
+       diss.style.top = "850px";
+     }
+ }
+ 
+   
 
+  
+  
 
